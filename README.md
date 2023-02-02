@@ -1,16 +1,10 @@
-# amplified_todo
+# Flutter Amplify Todo list
 
-A new Flutter project.
+Flutter Todo list using AWS Amplify and GetX.
 
-## Getting Started
+## Todo list project
 
-This project is a starting point for a Flutter application.
+This project is based on AWS's Amplify documentation.
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- [Amplify Getting Started Flutter Tutorial](https://docs.amplify.aws/start/q/integration/flutter/)
