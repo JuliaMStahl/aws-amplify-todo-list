@@ -9,14 +9,9 @@ class SplashPageView extends GetView<SplashPageController> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        title: const Text('SplashPageView'),
-        centerTitle: true,
-      ),
       body: Center(
-        child: Text(
-          'SplashPageView is working',
-          style: TextStyle(fontSize: 20),
+        child: CircularProgressIndicator(
+          color: Colors.pink,
         ),
       ),
     );

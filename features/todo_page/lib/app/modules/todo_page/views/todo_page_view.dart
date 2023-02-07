@@ -15,9 +15,9 @@ class TodoPageView extends GetView<TodoPageController> {
         title: Text(LocaleKeys.todo_list.tr),
         backgroundColor: Colors.pink,
       ),
-      body: controller.isLoading.value
-          ? const Center(child: CircularProgressIndicator())
-          : const TodosList(),
+      body: Obx(() => controller.isLoading.value
+          ? const Center(child: CircularProgressIndicator(color: Colors.pink))
+          : const TodosList()),
       floatingActionButton: FloatingActionButton.extended(
         backgroundColor: Colors.pink,
         onPressed: () => Get.toNamed(RedirectTo.ROUTES_FORM),
