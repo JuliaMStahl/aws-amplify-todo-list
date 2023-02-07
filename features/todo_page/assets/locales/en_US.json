@@ -1,0 +1,8 @@
+{
+  "todo_list": "Todo List",
+  "add_todo": "Add Todo",
+  "add_todo_message": "Tap button below to add a todo!",
+  "item": {
+    "no_description": "No description"
+  }
+}

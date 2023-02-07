@@ -1,0 +1,26 @@
+name: todo_form
+description: A new Flutter project.
+version: 0.0.1
+publish_to: 'none'
+
+environment:
+  sdk: '>=2.19.0 <3.0.0'
+  flutter: ">=1.17.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  get: ^4.6.5
+  shared_lib:
+    path: ../../libraries/shared_lib
+  routes_lib:
+    path: ../../libraries/routes_lib
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+

@@ -1,0 +1,8 @@
+{
+  "todo_list": "Lista de Tarefas",
+  "add_todo": "Adicionar Tarefa",
+  "add_todo_message": "Clique no botão abaixo para adicionar uma tarefa!",
+  "item": {
+    "no_description": "Sem descrição"
+  }
+}

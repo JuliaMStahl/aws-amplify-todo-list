@@ -1,5 +1,6 @@
-name: amplified_todo
-description: A new Flutter project.
+name: shared_lib
+description: A new Flutter module project.
+version: 1.0.0+1
 publish_to: 'none'
 
 environment:
@@ -10,26 +11,17 @@ dependencies:
     sdk: flutter
 
   cupertino_icons: ^1.0.2
+  get: ^4.6.5
   amplify_flutter: ^0.6.12
   amplify_datastore: ^0.6.12
   amplify_api: ^0.6.12
   amplify_auth_cognito: ^0.6.12
-  get: ^4.6.5
-  shared_lib:
-    path: libraries/shared_lib
-  routes_lib:
-    path: libraries/routes_lib
-  translation_lib:
-    path: libraries/translation_lib
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
-
   flutter_lints: ^2.0.0
 
 flutter:
 
-
   uses-material-design: true
-

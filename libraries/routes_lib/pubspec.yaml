@@ -1,0 +1,28 @@
+name: routes_lib
+description: A new Flutter module project.
+version: 1.0.0+1
+publish_to: 'none'
+
+environment:
+  sdk: '>=2.19.0 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  get: ^4.6.5
+  todo_form:
+    path: ../../features/todo_form
+  todo_page:
+    path: ../../features/todo_page
+  splash:
+    path: ../../features/splash
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
